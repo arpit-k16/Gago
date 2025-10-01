@@ -8,7 +8,7 @@ from typing import List
 st.title("Faculty Travel Survey Dashboard")
 st.markdown("### Insights & Visualizations based on Faculty Travel Survey Responses")
 
-CSV_PATH = r"e:\Gago\Faculty_Travel_Survey.csv"
+CSV_PATH = r"Faculty_Travel_Survey.csv"
 
 
 @st.cache_data
@@ -130,3 +130,4 @@ st.markdown("Insight: Faculty often mention inflexible schedules, autonomy, depe
 # - Safety Measures: Trusted faculty-only carpool groups, verified pickup points.
 # - Incentives: Priority parking or fuel reimbursements for carpool participants.
 # """)
+
